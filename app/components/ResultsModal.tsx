@@ -6,7 +6,7 @@ import { AuditRun, AuditPageResult } from './AuditService';
 
 interface Props {
   auditRun: AuditRun;
-  previousRun?: AuditRun;
+  previousRun?: AuditRun | null;
   onClose: () => void;
 }
 
